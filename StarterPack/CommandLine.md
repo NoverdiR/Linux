@@ -1,10 +1,10 @@
 <!-- Required extensions: mdx_math(enable_dollar_delimiter=1) -->
 
-#Linux Command Line
+# Linux Command Line
 
 Linux memiliki antarmuka GUI yang bekerja seperti GUI pada Windows maupun OS X. Namun, Linux memiliki antarmuka CLI yang sangat powerful dan bermanfaat untuk melakukan berbagai macam hal. CLI (Command Line Interface) adalah antarmuka sistem yang berbasis teks dan command. Dalam Linux, kita bisa memasukkan command melalui Terminal. 
 
-#Table of Contents
+# Table of Contents
 
 - [Dasar Command Line](#dasar-command-line)
 - [Manual](#manual)
@@ -16,7 +16,7 @@ Linux memiliki antarmuka GUI yang bekerja seperti GUI pada Windows maupun OS X. 
 - [Grep](#grep)
 - [Manajemen Proses](#manajemen-proses)
 
-##Dasar Command Line
+## Dasar Command Line
 
 Seperti yang sudah dijelaskan sebelumnya, kita bisa memasukkan command melalui Terminal. Terminal pada Linux adalah program tempat menjalankan shell. Shell adalah program yang memproses command dan mengeluarkan output. Shell di Linux berupa Bash Script. Berikut adalah beberapa cara membuka Terminal:
 
@@ -28,7 +28,7 @@ Command yang kita masukkan bisa memiliki beberapa argumen. Argumen bisa diibarat
 
 Command yang kita masukkan pada Terminal pada umumnya memiliki format sebagai berikut: `<command> [argumen1] [argumen2] [argumen3] ...`
 
-##Manual
+## Manual
 
 Manual adalah bentuk dokumentasi dari setiap command yang terdapat dalam sistem, yang berisi fungsi, cara menjalankannya, dan apa saja argumen yang tersedia dari command tersebut.
 
@@ -37,7 +37,7 @@ Manual adalah bentuk dokumentasi dari setiap command yang terdapat dalam sistem,
 
 Untuk keluar dari manual, tekan `q`.
 
-###Jenis Tanda Kurung pada Manual
+### Jenis Tanda Kurung pada Manual
 
 Ini juga berlaku untuk tanda kurung pada command dalam markdown ini.
 
@@ -46,7 +46,7 @@ Ini juga berlaku untuk tanda kurung pada command dalam markdown ini.
 - `...` -> Input bisa lebih dari satu
 - `[x|y]` -> Pilih salah satu antara x dan y
 
-##Navigasi Direktori
+## Navigasi Direktori
 
 Berikut adalah daftar command untuk untuk bernavigasi melalui direktori-direktori menggunakan Command Line.
 
@@ -57,7 +57,7 @@ Berikut adalah daftar command untuk untuk bernavigasi melalui direktori-direktor
 3. `cd <direktori>` -> Digunakan untuk berpindah direktori.
     - Direktori di Linux terbagi menjadi 2, yaitu _relative path_ dan _absolute path_. _Relative path_ adalah direktori yang relatif dengan posisi direktori kita sekarang, sedangkan _absolute path_ adalah direktori yang relatif dengan lokasi _root_.
 
-##Manipulasi File
+## Manipulasi File
 
 1. `file <nama_file>` -> Menentukan jenis dari suatu file.
 2. `cat <nama_file>` -> Melihat isi dari file.
@@ -72,7 +72,7 @@ Berikut adalah daftar command untuk untuk bernavigasi melalui direktori-direktor
 7. `rm [argumen] <nama_file>` -> Menghapus sebuah file.
     - `-r` -> Argumen untuk menghapus direktori yang berisi file.
 
-##Modifikasi File
+## Modifikasi File
 
 Untuk memodifikasi file melalui Terminal, kita bisa menggunakan ***Vi Text Editor***, melalui command `vi <nama_file>`. Vi memiliki 2 mode, yaitu Insert Mode dan Edit Mode. Kita bisa berpindah antar mode menggunakan `esc`. Dalam Insert Mode, kita bisa memodifikasi teks di dalam sebuah file tersebut. Dalam Edit Mode, kita bisa memasukkan command-command dari Vi itu sendiri.
 
@@ -80,7 +80,7 @@ Untuk memodifikasi file melalui Terminal, kita bisa menggunakan ***Vi Text Edito
 2. `:q!` -> Exit tanpa save
 3. `:w` -> Save tanpa exit
 
-##Wildcard
+## Wildcard
 
 Wildcard adalah 'building block' dalam membuat pattern yang bisa digunakan sebagai tambahan untuk command lainnya. Dasar dari wildcard adalah:
 
@@ -90,13 +90,13 @@ Wildcard adalah 'building block' dalam membuat pattern yang bisa digunakan sebag
 
 Contohnya, jika kita ingin agar `ls` hanya menampilkan file dan direktori yang berawalan huruf a, maka kita bisa menggunakan command `ls a*`.
 
-##Grep
+## Grep
 
 Grep adalah program yang berfungsi untuk menganalisis sebuah file dan menampilkan semua baris pada file tersebut yang mengandung sebuah pattern.
 
 `grep [argumen] <pattern> <path_file>`
 
-##Manajemen Proses
+## Manajemen Proses
 
 1. `top` -> Untuk melihat proses yang sedang berjalan secara *realtime*.
 2. `ps [argumen]` -> Untuk melihat proses yang berjalan di Terminal tepat saat command dieksekusi.
