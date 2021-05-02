@@ -8,7 +8,6 @@ Linux memiliki antarmuka GUI yang bekerja seperti GUI pada Windows maupun OS X. 
 
 - [Dasar Command Line](#dasar-command-line)
 - [Manual](#manual)
-    - [Jenis Tanda Kurung pada Manual](#jenis-tanda-kurung-pada-manual)
 - [Navigasi Direktori](#navigasi-direktori)
 - [Manipulasi File](#manipulasi-file)
 - [Modifikasi File](#modifikasi-file)
@@ -37,14 +36,14 @@ Manual adalah bentuk dokumentasi dari setiap command yang terdapat dalam sistem,
 
 Untuk keluar dari manual, tekan `q`.
 
-### Jenis Tanda Kurung pada Manual
-
-Ini juga berlaku untuk tanda kurung pada command dalam markdown ini.
+Pada manual, biasanya terdapat tanda-tanda kurung di sekitar argumen dari sebuah command. Tanda kurung ini memiliki makna sebagai berikut:
 
 - `[]` -> Opsional
 - `<>` -> Wajib
 - `...` -> Input bisa lebih dari satu
 - `[x|y]` -> Pilih salah satu antara x dan y
+
+Tanda kurung ini juga berlaku di seluruh markdown ini.
 
 ## Navigasi Direktori
 
