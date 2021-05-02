@@ -55,7 +55,7 @@ Header dalam Markdown memiliki beberapa tingkat, dimana tingkat yang lebih renda
 Penekanan disini yaitu penulisan huruf secara **tebal** dan *miring*. Kita bisa mengganti tanda `*` dengan `_`. Kita juga bisa mengkombinasikan ***tebal dan miring***.
 
 ```
-Penekanan disini yaitu penulisan huruf secara **tebal**, *miring*, ataupun ~~coret tengah~~. Kita bisa mengganti tanda `*` dengan `_`. Kita juga bisa mengkombinasikan ***tebal dan miring***.
+Penekanan disini yaitu penulisan huruf secara **tebal** dan *miring*. Kita bisa mengganti tanda `*` dengan `_`. Kita juga bisa mengkombinasikan ***tebal dan miring***.
 ```
 
 ### List
